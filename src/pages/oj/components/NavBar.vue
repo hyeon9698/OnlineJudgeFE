@@ -42,6 +42,10 @@
           {{$t('m.FAQ')}}
         </Menu-item>
       </Submenu>
+      <Menu-item name="/CAM">
+        <Icon type="camera"></Icon>
+        CAM
+      </Menu-item>
       <template v-if="!isAuthenticated">
         <div class="btn-menu">
           <Button type="ghost"
